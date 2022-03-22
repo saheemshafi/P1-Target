@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Target | About Us</title>
+
+    <style>
+        /* ABOUT | body css */
+        #body {
+            height: 100%;
+            padding: 3px 50px 0 50px;
+        }
+
+        #body p {
+
+            font-family: var(--para-font);
+            color: var(--body-paragraph-theme);
+            /* line-height: 5vh; */
+
+        }
+
+
+        /* ABOUT | services css */
+        .services div {
+            margin-top: 10vh;
+        }
+
+        .services-info {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #services .services-description {
+            align-items: center;
+            width: 84vw;
+            border: none;
+            height: 100%;
+            padding-bottom: 5%;
+        }
+
+        #services .services-description figcaption {
+            letter-spacing: 2px;
+            font-family: var(--para-font);
+            text-transform: uppercase;
+            margin-top: 3vh;
+            font-weight: bold;
+            padding-bottom: 33px;
+        }
+
+        #services .services-description div {
+            margin: 0 50px 0 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            line-height: 30px;
+            color: var(--body-paragraph-theme);
+        }
+
+        /*responsiveness */
+        @media screen and (min-width : 768px) and (min-height : 1024px) {
+            .services h3 {
+                margin: -1vh 3vh 3vh 3vh;
+            }
+
+            figure {
+                display: flex;
+                text-align: left;
+                padding: 28px;
+            }
+
+            .services-description div {
+                line-height: 2vh;
+            }
+
+            figure img {
+                filter: drop-shadow(-12px 15px 2px rgb(206, 206, 206));
+            }
+
+            figure figcaption {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                text-align: left;
+                padding: 0 15px
+            }
+
+            @media screen and (max-width : 370px) {
+               
+
+                #body div p {
+                    overflow: auto;
+                    max-height: 50vh;
+                    margin: 12px 10px;
+                }
+                /* #body div {
+                  
+                } */
+
+                .socials {
+                    margin: -10px;
+                }
+
+                .socials img {
+                    transform: scale(0.6);
+
+                }
+
+                #maintab .Menu i {
+                    display: none;
+                }
+
+                h1 {
+                    font-size: 20px;
+                }
+
+                h3 {
+                    font-size: 10px;
+                }
+
+                #body {
+                    width: 100%;
+                    padding: 0;
+                }
+
+                #services {
+                    width: 100vw;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                figure {
+                    transform: scale(70%);
+
+                }
+
+                p {
+                    margin-left: 5px;
+                    margin-right: 5px;
+
+                }
+
+                footer p {
+                    font-size: 8px;
+
+                }
+
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav id="nav">
+        <img id="logo" src="images/Logo Mark.png" alt="">
+
+
+        <div>
+            <ul id="maintab">
+                <li class="Menu"><a href="index.html"><i class="fa-solid fa-house-chimney icon"></i> Home</a>
+                    <ul class="sublist">
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="signup.html">Signup</a></li>
+                    </ul>
+                </li>
+                <!-- <li class="Menu"><a href="#services"><i class="fa-brands fa-servicestack icon"></i> Services</a>
+                    <ul class="sublist" id="servicetab">
+                        <li><a href="">Web Development</a></li>
+                        <li><a href="">Software Development</a></li>
+                        <li><a href="">Web Design</a></li>
+                        <li><a href="">Database Development</a></li>
+                    </ul>
+                </li> -->
+                <li class="Menu"><a href="about.html"><i class="fa-solid fa-address-card icon"></i> About</a></li>
+                <li class="Menu"><a href="contact.html"><i class="fa-solid fa-phone icon"></i> Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- socials -->
+        <ul id="socialmedia">
+            <li class="socials display-none">Checkout Our Socials</li>
+            <li class="socials"><a href="https://www.facebook.com/Graph-X-101539255178928" target="_blank"><img
+                        src="images/facebook.png" alt="Facebook"></a></li>
+            <li class="socials"><a href="https://www.instagram.com/mir_saheemshafi" target="_blank"><img
+                        src="images/instagram.png" alt="Instagram"></a></li>
+            <li class="socials"><a href="https://twitter.com/Moosa68341048" target="_blank"><img
+                        src="images/twitter.png" alt="Twitter"></a></li>
+
+        </ul>
+
+    </nav>
+
+    <main id="body">
+        <div>
+            <h1>About Us</h1>
+            <p>
+                For modern enterprises, software is the ultimate value driver. That’s why we set out to become the
+                software pioneers of a truly connected world. It is our mission to empower you to become a truly
+                connected enterprise. Using our industry-leading suite of products across integration & API management,
+                IoT & analytics and business transformation, we create a fluid flow of data between people, departments,
+                systems, and devices.
+
+                We’re not new to this. Since 1969 we’ve been dedicated to integrating and connecting everything to help
+                more than 10,000 businesses instantly see, decide, act — and thrive.
+            </p>
+
+        </div>
+    </main>
+    <div class="services">
+        <div>
+            <h1>Service Brief</h1>
+            <h3>HTML | CSS | JAVASCRIPT</h3>
+            <hr>
+            <section id="services" class="services-info">
+
+                <figure class="services-description"><img class="service-logo" src="images/html5-logo-2.png" alt="">
+                    <figcaption>HTML training</figcaption>
+                    <div class="description">Microsoft Expression Web is a professional Web design tool that is designed
+                        to create
+                        standards-based Web sites. The following skills are required in order to use Microsoft
+                        Expression Web successfully:
+
+                        XHTML / HTML
+                        Cascading Style Sheets (CSS) for styling page elements
+                        CSS for page layout</div>
+                </figure>
+                <figure class="services-description"><img class="service-logo" src="images/css.png" alt="">
+                    <figcaption>CSS mastery</figcaption>
+                    <div class="description">Cascading Style Sheets, fondly referred to as CSS, is a simple design
+                        language intended to
+                        simplify the process of making web pages presentable.
+
+                        CSS is a MUST for students and working professionals to become a great Software Engineer
+                        specially when they are working in Web Development Domain. I will list down some of the key
+                        advantages of learning CSS.</div>
+                </figure>
+                <figure class="services-description"><img class="service-logo" src="images/java script.png" alt="">
+                    <figcaption>JAVA script</figcaption>
+                    <div class="description">JavaScript (js) is a light-weight object-oriented programming language
+                        which is used by several
+                        websites for scripting the webpages. It is an interpreted, full-fledged programming language
+                        that enables dynamic interactivity on websites when applied to an HTML document.</div>
+                </figure>
+
+            </section>
+
+            <hr>
+        </div>
+    </div>
+    <footer>
+        <div><img src="images/Logo Type.png" alt=""></div>
+      <p>Copyright &copy; Graph X.All rights reserved.</p>
+
+    </footer>
+
+</body>
+
+</html>
