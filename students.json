@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Mir Saheem Shafi",
+        "id": {
+            "instituteCode": 1088,
+            "studentCode": 404
+        },
+        "dateOfBirth": "27/07/2004",
+        "gender": "Male",
+        "institution": {
+            "name": "Government Boys Higher Secondary School",
+            "address": "Jawahar Nagar"
+        },
+        "nextAppearance": "Higher Secondary Examination Part II",
+        "previousAppearance": {
+            "appearance": "Higher Secondary Examination Part I",
+            "institution": {
+                "name": "Government Boys Higher Secondary School",
+                "address": "Jawahar Nagar"
+            },
+            "isPassed": true,
+            "isfailed": false,
+            "marks": 430
+        }
+    },
+    {
+        "name": "Sheikh Fardeen",
+        "id": {
+            "instituteCode": 9832,
+            "studentCode": 215
+        },
+        "dateOfBirth": "12/02/2003",
+        "gender": "Male",
+        "institution": {
+            "name": "Government Boys Higher Secondary School",
+            "address": "Jawahar Nagar"
+        },
+        "nextAppearance": "Higher Secondary Examination Part I",
+        "previousAppearance": {
+            "appearance": "10th",
+            "institution": {
+                "name": "Islamia Model High School",
+                "address": "Barzulla Srinagar"
+            },
+            "isPassed": true,
+            "isfailed": false,
+            "marks": 362
+        }
+    },
+    {
+        "name": "Asiya Jan",
+        "id": {
+            "instituteCode": 9832,
+            "studentCode": 216
+        },
+        "dateOfBirth": "30/03/2005",
+        "gender": "Female",
+        "institution": {
+            "name": "Government Girls Higher Secondary School",
+            "address": "Rawalpora Srinagar"
+        },
+        "nextAppearance": "Higher Secondary Examination Part I",
+        "previousAppearance": {
+            "appearance": "10th",
+            "institution": {
+                "name": "Islamia Model High School",
+                "address": "Barzulla Srinagar"
+            },
+            "isPassed": false,
+            "isfailed": true,
+            "marks": 402
+        }
+    },
+    {
+        "name": "Sahil Razaq Manroo",
+        "id": {
+            "instituteCode": 9832,
+            "studentCode": 217
+        },
+        "dateOfBirth": "28/03/2004",
+        "gender": "Male",
+        "institution": {
+            "name": "Government Boys Higher Secondary School",
+            "address": "Jawahar Nagar"
+        },
+        "nextAppearance": "Higher Secondary Examination Part II",
+        "previousAppearance": {
+            "appearance": "Higher Secondary Examination Part I",
+            "institution": {
+                "name": "Government Boys Higher Secondary School",
+                "address": "Jawahar Nagar"
+            },
+            "isPassed": false,
+            "isfailed": true,
+            "marks": 182
+        }
+    }
+]
